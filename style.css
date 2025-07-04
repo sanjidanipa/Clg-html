@@ -1,9 +1,15 @@
 header{
     height: 100px;
     background-color: white;
-    
+    image-rendering: auto;
     margin-bottom: 10px;
    
+}
+img{
+    /* text-align: right; */
+    height: 100px;
+    width: 100px;
+    float: left;
 }
 
 #name{
@@ -37,32 +43,14 @@ header{
         color: white;
         
     }
-    article{
-        /* background-color: darksalmon; */
-    }
-    #div1 {
-       
-        background-color: rgb(25, 184, 247);
-      border: 20px;
-      margin: 20px;
-      padding: 20px;
     
+    .history{
+        background-color: rgb(25, 184, 247);
+     display: inline-block;
+    padding:10px ;
+  
+
     }
-#div2{
-       background-color: rgb(12, 123, 197);
-      border: 20px;
-      margin: 20px;
-      padding: 20px;
-}
-#div3{
-    background-color: rgb(1, 151, 250);
-      border: 20px;
-      margin: 20px;
-      padding: 20px;
-}
-#div4{
-       background-color: rgb(1, 151, 250);
-      border: 20px;
-      margin: 20px;
-      padding: 20px;
-}
+    section{
+        text-align: left;
+    }
